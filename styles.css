@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Moda%20Bodoni);
+
+/* Globals */
+body {
+  font-family: 'Poppins';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'Poppins'
+}
+
+/* Classes */
+.masthead {
+  background: #d5d7db;
+  padding-left: 24px;
+  font-size: 14px;
+}
+
+.header {
+  background-color: #ff0000;
+  padding: 24px;
+  text-align: center;
+  color: white;
+}
+
+.main {
+  padding: 24px;
+  background-color: #FFD580;
+  flex-grow: 1;
+}
+
+.card {
+  width: 300px;
+}
+
+.footer {
+  background-color: #d5d7db;
+  padding-left: 24px;
+  font-size: 14px;
+}
+.btn{
+  background-color: #ff0000;
+}
